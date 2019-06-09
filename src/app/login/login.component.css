@@ -1,0 +1,71 @@
+.container {
+  background-color: #ffffff;
+  height: 100vh !important;
+  max-width: 100% !important;
+}
+
+.loginForm {
+  margin-top: 4em;
+  padding: 30px;
+}
+
+.appLogo img {
+  width: 250px;
+  margin-bottom: 3em;
+}
+
+.input-group,
+.input-group-prepend,
+.input-group-text,
+input {
+  border: none !important;
+  background-color: #ffffff !important;
+}
+
+.form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+input {
+  margin-bottom: 1em;
+  border-radius: 0px;
+  padding-left: 0px;
+  border-bottom: 1px solid green !important;
+}
+
+.btn-success:hover {
+  background-color: #1eb87d !important;
+}
+
+.orBtn button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50% !important;
+}
+
+button i {
+  margin-right: 10px;
+}
+
+button{
+  border-radius: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .loginForm {
+    padding: 0px 10px;
+  }
+
+  .appLogo img {
+    margin-bottom: 1em !important;
+  }
+
+  button {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,45 @@
+.fixedBtn {
+  position: fixed;
+  bottom: 5px;
+  right: 20px;
+}
+
+.fixedBtn button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.anItem img {
+  width: 100%;
+  height: 370px;
+  object-fit: cover;
+}
+
+.anItem {
+  user-select: none;
+  margin-bottom: 1em;
+  position: relative;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.anItem .innerDiv {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 20px 10px 10px 10px;
+  background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.9)) !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .fixedBtn {
+    bottom: 0px;
+    right: 10px;
+  }
+  
+  .fixedBtn button {
+    width: 50px;
+    height: 50px;
+  }
+}
